@@ -95,3 +95,5 @@ desktop.ini
 
 # Unity generated meta files
 *.meta
+
+.build/
