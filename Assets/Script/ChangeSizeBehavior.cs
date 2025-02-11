@@ -8,10 +8,7 @@ public class ChangeSizeBehavior : MonoBehaviour
     void Start()
     {
         sliderScript = FindObjectOfType<SliderScript>();
-    }
 
-    void Update()
-    {
         float value = sliderScript.sliderValue * 2;
         if (sliderScript.sliderValue > 0)
         {
@@ -21,5 +18,10 @@ public class ChangeSizeBehavior : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    void Update()
+    {
+        
     }
 }
