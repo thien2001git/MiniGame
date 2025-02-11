@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 8703413370121415962}
   - component: {fileID: 5546537950836513202}
   - component: {fileID: 1856058143367636243}
-  - component: {fileID: -5103697699180866239}
+  - component: {fileID: -5614677242410526529}
+  - component: {fileID: -8076766963033350548}
+  - component: {fileID: 2289065823064843489}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -30,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.38, y: 2.92, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,8 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.162251, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 9489f7d8eb8bdb7409a144fde9abe0b7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -148,8 +150,8 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
---- !u!114 &-5103697699180866239
+  m_Radius: 0.34
+--- !u!114 &-5614677242410526529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,3 +163,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50390cce33ab4514e93ccc5654601143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8076766963033350548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3175903564578067774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0615717fb9de3b940bce6edb3629e2b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2289065823064843489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3175903564578067774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3e141601345f8408713f9da2129ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 35e79f11f0b5fe74bb888b2234db916a, type: 3}
+  - {fileID: 21300000, guid: 9489f7d8eb8bdb7409a144fde9abe0b7, type: 3}
+  - {fileID: 21300000, guid: 5ad9a8e4a42e6694cabf69c801bc8807, type: 3}
+  - {fileID: 21300000, guid: dd3f61b18e1d31f42a0c04be87ae239f, type: 3}
+  - {fileID: 21300000, guid: 2be7676ff358ff342b1854911b41619b, type: 3}
+  - {fileID: 21300000, guid: 6a033ae2b83f8ad4f87dc5b8964a12a5, type: 3}
+  - {fileID: 21300000, guid: 1d9faf5916cd5004eb340e99c6d94418, type: 3}
+  spriteRenderer: {fileID: 8703413370121415962}
